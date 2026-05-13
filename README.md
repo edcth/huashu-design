@@ -5,7 +5,7 @@
 # Huashu Design
 
 > *"Type. Hit enter. A finished design lands in your lap."*
-> *「打字。回车。一份能交付的设计。」*
+> *「打字。回車。一份能交付的設計。」*
 
 [![License](https://img.shields.io/badge/License-Personal%20Use%20Only-orange.svg)](LICENSE)
 [![Agent-Agnostic](https://img.shields.io/badge/Agent-Agnostic-blueviolet)](https://skills.sh)
@@ -31,7 +31,7 @@ npx skills add alchaincyf/huashu-design
 
 > 📖 **Note for English readers**: this skill is built by a Chinese-speaking developer. The skill's agent prompts (`SKILL.md`, `references/*.md`) are in Chinese but the agent is bilingual — works fine with English tasks. The demos below are the English parallel versions; the Chinese ones are in the default-named files (see the [Chinese README](README.zh.md)).
 >
-> 📖 **致中文读者**：这个 skill 由花叔（@AlchainHust）开发。一句话能让 agent 在 3–30 分钟内交付**产品发布动画 / 可点击 App 原型 / 可编辑 PPT / 印刷级信息图**。完整中文介绍见 [README.zh.md](README.zh.md)。
+> 📖 **致中文讀者**：這個 skill 由花叔（@AlchainHust）開發。一句話能讓 agent 在 3–30 分鐘內交付**產品發佈動畫 / 可點擊 App 原型 / 可編輯 PPT / 印刷級信息圖**。完整中文介紹見 [README.zh.md](README.zh.md)。
 
 </div>
 
