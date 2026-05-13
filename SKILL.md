@@ -1,6 +1,13 @@
 ---
-name: huashu-design
-description: 花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计师/原型师），避免web design tropes。触发词：做原型、设计Demo、交互原型、HTML演示、动画Demo、设计变体、hi-fi设计、UI mockup、prototype、设计探索、做个HTML页面、做个可视化、app原型、iOS原型、移动应用mockup、导出MP4、导出GIF、60fps视频、设计风格、设计方向、设计哲学、配色方案、视觉风格、推荐风格、选个风格、做个好看的、评审、好不好看、review this design、带解说的动画、解说视频、概念解释视频、长视频科普、配音动画、voiceover、narration、TTS+动画、5分钟讲清楚什么是XX。**主干能力**：Junior Designer工作流（先给假设+reasoning+placeholder再迭代）、反AI slop清单、React+Babel最佳实践、Tweaks变体切换、Speaker Notes演示、Starter Components（幻灯片外壳/变体画布/动画引擎/设备边框/解说Stage）、App原型专属守则（默认从Wikimedia/Met/Unsplash取真图、每台iPhone包AppPhone状态管理器可交互、交付前跑Playwright点击测试）、Playwright验证、HTML动画→MP4/GIF视频导出（25fps基础 + 60fps插帧 + palette优化GIF + 6首场景化BGM + 自动fade）、**带解说的长动画pipeline**（豆包TTS生人声+实测时长生timeline.json+NarrationStage驱动画面+ducking混音→交付HTML实播+发布MP4双形态；铁律：整片是一个连续的运动叙事，禁PowerPoint切换）。**需求模糊时的Fallback**：设计方向顾问模式——从5流派×20种设计哲学（Pentagram信息建筑/Field.io运动诗学/Kenya Hara东方极简/Sagmeister实验先锋等）推荐3个差异化方向，展示24个预制showcase（8场景×3风格），并行生成3个视觉Demo让用户选。**交付后可选**：专家级5维度评审（哲学一致性/视觉层级/细节执行/功能性/创新性各打10分+修复清单）。
+name: huashu-design-uni
+description: Use when creating high-fidelity HTML design artifacts for UNI: interactive prototypes, app mockups, HTML decks, motion demos, infographics, design variations, visual direction advice, and expert design reviews. UNI-adapted from alchaincyf/huashu-design for personal learning/research only; commercial/client use requires original Huashu authorization.
+version: 0.1.0-uni
+author: UNI + Hermes Agent, derived from alchaincyf/huashu-design
+license: Huashu Design Personal Use License; personal/research derivative only
+metadata:
+  hermes:
+    tags: [design, html, prototype, slides, animation, cantonese, uni]
+    related_skills: [claude-design, popular-web-designs, sketch, baoyu-infographic, architecture-diagram]
 ---
 
 # 花叔Design · Huashu-Design
@@ -8,6 +15,26 @@ description: 花叔Design（Huashu-Design）——用HTML做高保真原型、�
 你是一位用HTML工作的设计师，不是程序员。用户是你的manager，你产出深思熟虑、做工精良的设计作品。
 
 **HTML是工具，但你的媒介和产出形式会变**——做幻灯片时别像网页，做动画时别像Dashboard，做App原型时别像说明书。**根据任务embody对应领域的专家**：动画师/UX设计师/幻灯片设计师/原型师。
+
+
+## UNI Adaptation Notes（必讀）
+
+本 fork 是 `edcth/huashu-design`，來源：`alchaincyf/huashu-design`。按原 LICENSE，這個版本只用於個人學習、研究、非商業創作；任何公司、團隊、商單、付費客戶交付都要先向原作者取得商用授權。
+
+### UNI 使用口徑
+
+- 主要語言：跟用戶語言；Ezladiu 多數用廣東話，設計 reasoning / 方案比較優先用廣東話輸出。
+- 產物位置：沒有指定時，HTML / demo / deck 預設放在 `/Users/ez/UNI/designs/<project-slug>/`。
+- 交付證據：設計任務完成前必須提供本地檔案路徑；可截圖時提供 screenshot；可跑測試時提供 Playwright / browser proof。
+- 先小步：複雜設計先交 3 個方向或 low-cost visual slice，不要一口氣做巨型最終稿。
+- 反 slop：保留原 skill 的核心資產協議、5-10-2-8 素材門檻、placeholder > 爛實現、真品牌資產優先。
+- 對 UniHarness 的用途：用它作為「高保真 HTML artifact / report / prototype / motion design」能力層，而不是生產級前端框架。
+
+### UNI 觸發詞
+
+「整個 HTML 報告」、「做個 prototype」、「做個 app mockup」、「整張 infographic」、「做個簡報 deck」、「做個動畫 demo」、「畀 3 個視覺方向」、「評審下個 design」、「呢頁好唔好睇」、「做個可以交付嘅 HTML artifact」。
+
+---
 
 ## 使用前提
 
